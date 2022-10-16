@@ -12,3 +12,17 @@ alert( 0 == false ); // true
 alert( 0 == '' ); // true
 
 alert( 0 ===false);//false
+
+let sum = (a, b) => a + b;
+
+
+let sum2 = (a, b) => {
+  // ...
+  return a + b;
+}
+
+
+let sayHi = () => alert("Hello");
+
+
+let double = n => n * 2;
